@@ -5,7 +5,7 @@ let datoentel=1.00;
 
 let cualoperador=prompt(`Escribe¿A que operador llamaste?\n*fijo\n*claro\n*movistar\n*entel`);
 
-let minutos=parseInt(prompt(`¿Cuantos minutos duro la llamada?`));
+let minutos=parseInt(prompt(`¿Cuantos minutos duro la llamada de la operadora?`));
 
 let costofijo=parseFloat(minutos*datofijo);
 let costoclaro=parseFloat(minutos*datoclaro);
