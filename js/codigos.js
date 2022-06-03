@@ -13,13 +13,13 @@ let costoclaro=parseFloat(minutos*datoclaro);
 let costomovistar=parseFloat(minutos*datomovistar);
 let costoentel=parseFloat(minutos*datoentel);
 if(cualoperador==1){
-    document.write(`El costo de la llamada a Fijo es S/ ${costofijo}`);
+    document.write(`El costo de la llamada por ${minutos} minutos a Fijo es S/ ${costofijo}`);
 }else if(cualoperador==2){
-    document.write(`El costo de la llamada Claro es S/ ${costoclaro}`);
+    document.write(`El costo de la llamada por ${minutos} minutos Claro es S/ ${costoclaro}`);
 }else if(cualoperador==3){
-   document.write(`El costo de la llamada a Movistar es S/ ${costomovistar}`);
+   document.write(`El costo de la llamada por ${minutos} minutos a Movistar es S/ ${costomovistar}`);
 }else if(cualoperador==4){
-    document.write(`El costo de la llamada a Entel es S/ ${costoentel}`);
+    document.write(`El costo de la llamada por ${minutos}minutos a Entel es S/ ${costoentel}`);
 }else {
     alert("No se identifico la operadora")
 }
