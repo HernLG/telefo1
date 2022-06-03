@@ -8,10 +8,10 @@ let cualoperador=prompt(`¿A que operador llamaste?\n1.-Fijo\n2.-Claro\n3.-Movis
 let minutos=parseInt(prompt(`¿Cuantos minutos duro la llamada?`));
 
 let costofijo
-costofijo=parseFloat(minhablado*datofijo);
-let costoclaro=parseFloat(minhablado*datoclaro);
-let costomovistar=parseFloat(minhablado*datomovistar);
-let costoentel=parseFloat(minhablado*datoentel);
+costofijo=parseFloat(minutos*datofijo);
+let costoclaro=parseFloat(minutos*datoclaro);
+let costomovistar=parseFloat(minutos*datomovistar);
+let costoentel=parseFloat(minutos*datoentel);
 if(cualoperador==1){
     document.write(`El costo de la llamada a Fijo es S/ ${costofijo}`);
 }else if(cualoperador==2){
